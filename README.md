@@ -3,9 +3,9 @@
 SharePilot is a native macOS menu-bar app that keeps your network shares connected
 when your Mac wakes or changes networks.
 
-**[Download SharePilot 1.0.1](https://github.com/deanc/SharePilot-releases/releases/tag/v1.0.1-build16)**
+**[Download SharePilot 1.1.0](https://github.com/deanc/SharePilot-releases/releases/tag/v1.1.0-build17)**
 
-[Changelog](CHANGELOG.md) · [Changelog on the website](https://deanclatworthy.com/software/sharepilot/changelog/)
+[Changelog](CHANGELOG.md) · [All releases](https://github.com/deanc/SharePilot-releases/releases)
 
 Requires macOS 26 or later. Supports Apple Silicon and Intel Macs. SharePilot
 connects to your own NAS or file server; it does not provide hosted storage.

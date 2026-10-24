@@ -5,6 +5,16 @@ manually: quit SharePilot, download the new version and replace the app in
 Applications. Your settings and trial/licence data are preserved. macOS may ask
 for Keychain approval again after an update.
 
+The public version history is maintained in the [SharePilot downloads repository](https://github.com/deanc/SharePilot-releases/blob/main/CHANGELOG.md).
+
+## 1.1.0 (build 17) — 2026-10-24
+
+### Added
+
+- A saved **Hide Dock icon** option beside **Open at login**. Changes apply immediately and are remembered after restarting. The Dock icon is hidden by default; SharePilot stays accessible from the menu bar.
+
+Existing SharePilot 1 licences cover this update. No licensing or checkout changes.
+
 ## 1.0.1 (build 16) — 2026-10-23
 
 ### Fixed
