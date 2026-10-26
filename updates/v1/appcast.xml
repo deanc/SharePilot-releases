@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>SharePilot</title>
+        <item>
+            <title>1.2.0</title>
+            <pubDate>Mon, 26 Oct 2026 21:25:17 +0200</pubDate>
+            <link>https://deanclatworthy.com/software/sharepilot/</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/deanc/SharePilot-releases/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[SharePilot 1.2.0 (build 18) is a commercial release with a seven-day full-feature trial and Paddle licence activation. Requires macOS 26.0 or later; supports Apple Silicon and Intel Macs.
+
+## Changes
+
+### Added
+
+- In-app updates through Sparkle, with automatic daily checks, release notes, and installation and relaunch. Use **Check for Updates…** from the app menu or the menu-bar panel's More options menu. **Update Settings…** includes optional automatic downloading and installation.
+- Signed update feeds and downloads, restricted to the app's current major version. Future paid major upgrades cannot replace your licensed version automatically.
+
+### Fixed
+
+- Queued disconnects recheck the exact network mount before unmounting and refuse symlink redirection. Busy volumes remain protected by normal, non-forced macOS unmounts.
+- Changing a connection keeps its previous saved password until replacement settings have been saved successfully.
+- Closing the menu-bar panel and settings window releases their views, avoiding retained background observers.
+
+Personal builds keep licensing disabled without reading or changing saved trial/licence records. In-app production updates are disabled in personal, sandbox and trial-preview builds.
+
+Existing SharePilot 1 licences cover this update. No checkout or entitlement changes.
+
+[Full changelog](https://github.com/deanc/SharePilot-releases/blob/main/CHANGELOG.md)
+
+]]></description>
+            <enclosure url="https://github.com/deanc/SharePilot-releases/releases/download/v1.2.0-build18/SharePilot-update.zip" length="4065445" type="application/octet-stream" sparkle:edSignature="7qEXnEfadPInjCGKMFYp7EewJV6HvqvL53HfycVjAGN4E4y5fe3XorV2Q7smy6ELBpVp8N6VXAcsZ61GQCcRBw=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: HlEqRFLPSppOVJ6y8veqczjesbf8wXWjlgIMuO/CbKlunIIvxqy4qlJcf0Z5MaK1YyzS5ZIUc3xxhrASi8zGAw==
+length: 2778
+-->
