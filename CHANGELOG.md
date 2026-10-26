@@ -1,11 +1,30 @@
 # Changelog
 
-All 1.x updates are included in a SharePilot 1 licence. Updates are installed
-manually: quit SharePilot, download the new version and replace the app in
-Applications. Your settings and trial/licence data are preserved. macOS may ask
-for Keychain approval again after an update.
+All 1.x updates are included in a SharePilot 1 licence. From version 1.2.0,
+SharePilot checks for updates automatically and offers installation in the app.
+Automatic downloading and installation are optional in Update Settings. Older
+versions need a manual download and replacement in Applications. Your settings
+and trial/licence data are preserved. macOS may ask for Keychain approval again
+after an update.
 
 The public version history is maintained in the [SharePilot downloads repository](https://github.com/deanc/SharePilot-releases/blob/main/CHANGELOG.md).
+
+## 1.2.0 (build 18) — 2026-10-26
+
+### Added
+
+- In-app updates through Sparkle, with automatic daily checks, release notes, and installation and relaunch. Use **Check for Updates…** from the app menu or the menu-bar panel's More options menu. **Update Settings…** includes optional automatic downloading and installation.
+- Signed update feeds and downloads, restricted to the app's current major version. Future paid major upgrades cannot replace your licensed version automatically.
+
+### Fixed
+
+- Queued disconnects recheck the exact network mount before unmounting and refuse symlink redirection. Busy volumes remain protected by normal, non-forced macOS unmounts.
+- Changing a connection keeps its previous saved password until replacement settings have been saved successfully.
+- Closing the menu-bar panel and settings window releases their views, avoiding retained background observers.
+
+Personal builds keep licensing disabled without reading or changing saved trial/licence records. In-app production updates are disabled in personal, sandbox and trial-preview builds.
+
+Existing SharePilot 1 licences cover this update. No checkout or entitlement changes.
 
 ## 1.1.0 (build 17) — 2026-10-24
 
